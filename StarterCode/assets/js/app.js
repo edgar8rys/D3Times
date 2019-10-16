@@ -33,7 +33,6 @@ d3.csv("assets/data/data.csv").then(lifeData => {
         data.healthcare = +data.healthcare;
         data.healthcareHigh = +data.healthcareHigh;
         data.healthcareLow = +data.healthcareLow;
-        //DO I NEED TO TRANSFORM STRING (STATE ABREVIATIONS)
     });
 
     // create scales
